@@ -1,0 +1,71 @@
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+    #masthead {
+        clear: both;
+        text-align: center;
+        z-index: 0;
+        display: block;
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .clearfix::after {
+        clear: both;
+        display: block;
+      }
+
+    #container {
+        clear: both;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+    #logo {
+        width: 100%;
+        clear: both;
+        display: block;
+    }
+
+    a#logo {
+        width: 100%;
+        display: block;
+    }
+
+    #main-container.container {
+        padding-top: 10px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    nav {
+        clear: both;
+        display: inline;
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 100px;
+    }
+        
+    nav a {
+        clear: both;
+        display: inline;
+        margin-left: 0px;
+        text-align: left;
+    }
+    
+    .main-section {
+        padding-top: 0px;
+    }
+
+    .auth-image {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+}
